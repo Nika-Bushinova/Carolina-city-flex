@@ -1,0 +1,585 @@
+           /*----------------------------1200px----------------------*/
+       
+       @media (max-width: 1200px) {
+           /*-----------------------меню-бургер----------------*/
+           .header__empty {
+               display: block
+           }
+           .header__burger {
+               display: block;
+               width: 30px;
+               height: 30px;
+               position: relative;
+               top: 6%;
+               margin-left: 10px;
+               cursor: pointer;
+               z-index: 3;
+           }
+           .header__burger:before,
+           .header__burger:after {
+               background-color: black;
+               position: absolute;
+               content: '';
+               width: 100%;
+               height: 2px;
+           }
+           .header__burger:before {
+               bottom: 0
+           }
+           .header__burger span {
+               background-color: black;
+               position: absolute;
+               width: 100%;
+               height: 2px;
+               top: 14px
+           }
+           .header__menu {
+               z-index: 4;
+               width: 50%;
+               height: 100%;
+               background-color: rgba(255, 0, 0, 0.9);
+               padding: 0px 0px 0px 5%;
+               transition: all 0.3s ease 0s;
+               left: -100%;
+               overflow: auto;
+               margin-top: 425px;
+               position: absolute;
+               font-size: 150%;
+           }
+           .header__menu._active {
+               left: 50%
+           }
+           .menu__list {
+               flex-direction: column;
+           }
+           .menu__list>li {
+               margin: 0px 0px 15px 0px;
+           }
+           .menu__item {
+               font-size: 200%;
+           }
+           /*---------------------------*/
+           .add__form._active2 {
+               left: 0%
+           }
+           .first-button {
+               z-index: 4
+           }
+           .advertisement__block {
+               margin: 10px auto !important;
+               align-items: center;
+           }
+           .main-block__government {
+               padding-bottom: 30px !important;
+               padding-top: 10px !important
+           }
+           .government-services__photo {
+               display: none
+           }
+           .main-block__guide-both {
+               padding: 20px 7.2% 40px 7.2% !important;
+           }
+           .main-block__news-items {
+               justify-content: center;
+           }
+           .numbers__block span {
+               font-size: 36px !important
+           }
+           .council__block {
+               margin-right: 16px;
+           }
+           .footer__container-container div:nth-child(4) {
+               display: none;
+           }
+           .footer__container-container {
+               padding: 72px 40px
+           }
+           .footer__container-container div:nth-child(3) {
+               margin: 0px !important
+           }
+
+           /*---------------------------------------about.html-----------------------*/
+           .the-best-city_history,
+           .the-best-city_guide {
+               margin-top: 50px !important
+           }
+       }
+       /*----------------------------------------------------------------------------992px-------------------------------------------------------*/
+       
+       @media (max-width: 992px) {
+           .header__container {
+               max-height: 102px;
+           }
+
+           .header__menu {margin-top:590px}
+           /*------------------------------*/
+           .main-block__container {
+               max-height: 700px !important;
+           }
+           .main-block__body {
+               padding-top: 50px !important
+           }
+           .main-block__title {
+               font-size: 48px !important;
+               line-height: 80px;
+           }
+           /*------------------------------*/
+           .info-item__container {
+               flex-direction: column;
+           }
+           .info-item__element {
+               max-width: 840px !important;
+               margin-right: 0px !important;
+               padding-bottom: 0px !;
+               margin: 0px 0px 10px 0px !important;
+           }
+           .info-item__element h3 {
+               text-align: center;
+               padding: 45px 0px 0px 0px;
+           }
+           /*--------------общие параметры-----------------*/
+           .main-block__body7,
+           .main-block__body5,
+           .main-block__body6 {
+               padding-left: 0px !important;
+               padding-right: 0px !important;
+               padding-top: 30px !important;
+               padding-bottom: 30px !important
+           }
+           /*--------------------------------*/
+           .main-block__amazing-spotlight {
+               padding: 20px 0px 0px 0px !important
+           }
+           .main-block__body2 {
+               flex-direction: column-reverse
+           }
+           .about__video {
+               position: relative;
+               padding-bottom: 50%;
+               max-width: 712px;
+               max-height: 568px;
+               width: 90%;
+               height: 90%;
+               max-height: 568px;
+               margin: 0 auto;
+               align-items: center;
+           }
+           .about__text2 {
+               flex: 0 0 100% !important;
+               height: 100%;
+               padding: 20px 7.2% 50px 7.2% !important
+           }
+           /*--------------------------------------------------*/
+           .main-block__body3 {
+               flex-direction: column
+           }
+           .add__text {
+               margin: 24px 0px 0px
+           }
+           .info-item2__element {
+               max-width: 100% !important;
+               padding: 0px 10px 10px 20px !important;
+               margin-bottom: 16px;
+               margin-right: 0px !important;
+           }
+           .info-item2 {
+               justify-content: space-around;
+           }
+           .government-services__add {
+               padding: 0px 6% 0px 7.2% !important;
+               flex: 0 0 100% !important;
+               padding: 0px 8.2% 0px 7.2%;
+           }
+           .government-services__add>div {
+               padding: 30px 0px 0px 0px !important
+           }
+           /*----------------------------------------------*/
+           .add__title-guide h2 {
+               font-size: 36px !important;
+           }
+           /*----------------------------------------------*/
+           .add__text_new-challenges {
+               padding: 0px 10px;
+           }
+           /*--------------------------------------------------*/
+           .news-item {
+               flex-direction: row !important;
+               max-width: 100% !important;
+               margin: 10px 0px 0px 0px !important;
+               padding: 10px
+           }
+           .news-item__a {
+               flex: 1 0 300px !important;
+               min-width: 300px;
+               height: 300px;
+           }
+           .footer__container-container {
+               padding: 20px !important;
+               justify-content: space-around;
+           }
+           .footer__container-container div:nth-child(3) {
+               display: none
+           }
+           /*----------------------services.html-------------------*/
+           .main-block__container-services {
+               padding: 20px 0px 30px 0px !important;
+           }
+           /*------------------------------e-gov.html-----------------------*/
+           .main-block__e-container {
+               flex-direction: column-reverse;
+               padding: 0px !important;
+           }
+           .form {
+               margin: 0px 0px 0px 0px !important
+           }
+           .form__form {
+               display: none
+           }
+           .form__list {
+               display: flex !important;
+               flex-wrap: wrap !important;
+               flex-direction: row !important;
+               justify-content: center !important;
+           }
+           .form__menu,
+           .form__menu h3 {
+               padding: 10px !important;
+               text-align: center;
+           }
+           .form__list li {
+               padding: 0px 10px
+           }
+           .form__list li:last-child {
+               display: none !important;
+           }
+           .first-column {
+               flex: 0 1 56.66%;
+               padding-right: 7.2%
+           }
+           /*-----------------------------------about.html------------------------*/
+           .numbers {
+               padding-top: 60px !important
+           }
+          
+           .the-best-city__both {
+               justify-content: center;
+           }
+           .council__block {
+               margin: 0px auto !important;
+               margin-bottom: 10px !important;
+               align-items: center !important;
+           }
+       }
+       /*-------------------------------------------------------------------------767------------------------------------------------*/
+       
+       @media (max-width: 767px) {
+           .header__menu {
+               padding: 5% 0px 0px 3%;
+               font-size: 100%;
+               width: 49%;
+           }
+           .first-button {
+               padding: 10px 10px;
+               font-size: 16px
+           }
+           /*------------------------------------*/
+           .main-block__title {
+               line-height: 80px;
+           }
+           .main-block__body6 .add__title h2 {
+               font-size: 32px !important
+           }
+           .footer__block>span,
+           .add__text {
+               padding: 0px 10px
+           }
+           .add__title-guide {
+               padding-bottom: 80px;
+           }
+           .add__title {
+               padding: 0px 10px !important
+           }
+           .add__whole .add__text {
+               padding-top: 20px !important;
+               padding-bottom: 40px !important;
+           }
+           .government-services__add>div {
+               padding: 20px 0px 0px 0px !important
+           }
+           /*------------------------------------------*/
+           .main-block__guide-both {
+               padding: 20px 2px 40px 25px !important;
+               align-items: center;
+           }
+           .main-block__left-column {
+               align-items: center;
+               margin: 0px auto;
+               text-align: center;
+               flex: 1 1 100%
+           }
+           .main-block__right-column {
+               display: none
+           }
+           .guide__list {
+               padding-left: 20px !important;
+               margin: 0px !important
+           }
+           .guide__item {
+               max-width: 92%;
+               height: 48px !important;
+               padding: 0px !important;
+               margin: 0px !important
+           }
+           .add__text_text-guide {
+               display: none;
+           }
+           .add__title-guide h2 {
+               font-size: 24px !important
+           }
+           /*------------------------------------------*/
+           .main-block__body5 {
+               margin: 0px 0px
+           }
+           .advertisement__block {
+               max-width: 500px;
+               min-width: 450px;
+               max-height: 500px;
+               min-height: 450px;
+               padding-top: 20px !important;
+               padding-bottom: 40px !important;
+               margin: 5px !important;
+           }
+           .add__buttons_center {
+               margin: 50px 0px 30px 0px
+           }
+           /*------------------------------------------*/
+           .main-block__body6 {
+               text-align: center;
+           }
+           .form__button .first-button {
+               padding: 10px 50px!important
+           }
+           /*-------------------------------------------------*/
+           .news-item__element {
+               padding: 10px !important
+           }
+           .news-item__element p {
+               display: none;
+           }
+           .news-item__a {
+               max-width: 150px !important;
+               min-width: 150px;
+               height: 150px;
+           }
+           /*--------------------------------------------------------*/
+           .footer__container-container div:first-child {
+               margin-right: 10px!important
+           }
+           .footer__container-container {
+               justify-content: space-between;
+           }
+           /*----------------------------about.html--------------------*/
+           ._about {
+               padding: 0px !important
+           }
+           .numbers__block span {
+               font-size: 24px !important
+           }
+           .numbers {
+               padding: 20px 7.2% 60px 7.2% !important
+           }
+           .the-best-city_text {
+               flex: 0 1 400px !important;
+           }
+           .the-best-city_text .add__text {
+               margin: 0px !important;
+               padding: 0px !important
+           }
+           .the-best-city h2 {
+               font-size: 24px !important;
+               font-weight: bold;
+               margin: 0px;
+           }
+           .the-best-city {
+               padding: 0px 7.2% 70px 7.2% !important;
+           }
+           .the-best-city_guide {
+               margin-right: 10px
+           }
+           /*-------------------------------------------e-gov.html-------------------------*/
+           .main-block__e-container .add__whole .add__text {
+               padding: 0px !important
+           }
+           /*----------------------------------------------------------479-----------------------------------------------------------*/
+           @media (max-width: 479px) {
+               .header__menu {
+                   font-size: 50%;
+                   line-height: 50px;
+               }
+               .header__button {
+                   margin-right: 1% !important
+               }
+               .header__logo span:nth-child(2) {
+                   display: none;
+               }
+               /*-------------------------------------*/
+               .main-block__title {
+                   font-size: 32px !important;
+                   line-height: 50px;
+               }
+               .main-block__text {
+                   margin-bottom: 20px !important;
+               }
+               .first-button {
+                   padding: 10px 10px;
+                   font-size: 12px
+               }
+               .page__main-block {
+                   max-height: 550px !important
+               }
+               h2 {
+                   font-size: 24px !important;
+                   font-weight: bold;
+                   margin: 0px;
+               }
+               /*--------------------------------------------*/
+               .main-block__body {
+                   padding-top: 50px !important;
+               }
+               /*---------------------------------------------*/
+               .info-item__container {
+                   margin-top: -90px !important
+               }
+               /*---------------------------------------------*/
+               .main-block__amazing-spotlight {
+                   padding-bottom: 10px !important
+               }
+               .add__buttons_center {
+                   margin: 20px 0px !important
+               }
+               .add__title-guide {
+                   padding: 10px !important;
+                   margin: 0 auto;
+                   align-items: center;
+               }
+               .add__title-guide h2 {
+                   font-size: 18px !important
+               }
+               /*-----------------------------------------*/
+               .main-block__body7,
+               .main-block__body5,
+               .main-block__body6 {
+                   padding: 30px 10px !important
+               }
+               /*---------------------------------------*/
+               .main-block__guide-both {
+                   flex-direction: column;
+                   width: 100%;
+                   padding: 20px 0px 0px 0px !important;
+                   align-items: center;
+               }
+               .main-block__left-column {
+                   flex: 0 0 100% !important;
+                   display: flex;
+                   margin: 0px !important;
+                   text-align: center;
+               }
+               .main-block__left-column .button {
+                   display: none
+               }
+               /*-----------------------------------*/
+               .advertisement__block {
+                   max-height: 300px;
+                   max-width: 310px;
+                   min-width: 290px !important;
+                   min-height: 270px !important;
+                   padding: 10px !important;
+               }
+               .advertisement__block .add__text {
+                   font-size: 14px !important;
+               }
+               .advertisement__block .add__buttons,
+               .advertisement__block .add__title {
+                   margin: 20px 0px 5px!important
+               }
+               .advertisement__block .add__text {
+                   margin-top: 5px !important
+               }
+               /*---------------------------------------------*/
+               .add__text_new-challenges span:nth-child(n+2) {
+                   display: none
+               }
+               .add__text_advertisement span:nth-child(n+2) {
+                   display: none
+               }
+               /*-----------------------------------------*/
+               .news-item__element h3 {
+                   font-size: 20px;
+                   line-height: 24px;
+               }
+               /*--------------------------------e-gov.html + services.html-------------------------*/
+               .form__list a {
+                   font-size: 16px !important;
+                   line-height: 28px !important;
+               }
+               .main-block__body-e-gov,
+               .main-block__container_services {
+                   max-height: 400px !important;
+               }
+               .footer__container-container div:first-child,
+               .footer__container-container div:nth-child(4) {
+                   display: none;
+               }
+               .form__list li:not(:last-child):hover {background: #06163A;}
+               /*---------------------------departments----------------------*/
+               /*----------------------------about--------------------------*/
+               .numbers__block span {
+                   font-size: 16px !important;
+                   line-height: 24px !important;
+               }
+               .numbers__block p {
+                   font-size: 14px !important;
+                   line-height: 16px !important
+               }
+               /*----------------about----------------------*/
+               .the-best-city_text {
+                   flex: 0 1 400px !important;
+               }
+               .council {
+                   padding: 0px !important
+               }
+               .council__block {
+                   max-height: 550px
+               }
+               .council__h {
+                   padding: 10px;
+                   margin: 0px 0px 20px !important
+               }
+               .council h2,
+               .council h5 {
+                   font-size: 24px !important;
+                   line-height: 20px !important;
+               }
+               .council__img {
+                   height: 350px !important;
+                  
+               }
+               .council__block {
+                   max-width: 300px !important;
+                   padding: 10px;
+               }
+               .icons {
+                   padding: 30px !important
+               }
+               .main-block__container_about,
+               .main-block__container_department {
+                   min-height: 350px !important;
+               }
+               .the-best-city_text {
+                   flex: 0 1 300px !important
+               }
+               .the-best-city_text .add__text span:nth-child(n+2) {
+                   display: none;
+               }
+               .the-best-city_history, .the-best-city_guide{margin-right:0px !important}
+           }
