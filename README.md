@@ -1,2 +1,2 @@
 # Carolina-city-flex
-It's my diplome project for HTML/CSS courses
+It's my diploma project for HTML/CSS courses
