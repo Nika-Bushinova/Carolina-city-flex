@@ -1,2 +1,2 @@
 # Carolina-city-flex
-It's my diploma project for HTML/CSS courses
+https://nika-bushinova.github.io/Carolina-city-flex/
